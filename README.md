@@ -1,4 +1,5 @@
-# 👨‍💻 Awesome-Code-LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 👨‍💻 Awesome-Code-LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PR](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red) [![COMMIT](https://img.shields.io/github/last-commit/huybery/Awesome-Code-LLM?color=green)](https://img.shields.io/github/last-commit/huybery/Awesome-Code-LLM?color=green)
+
 
 > *"Everybody should learn to program a computer, because it teaches you how to think." – Steve Jobs*
 
