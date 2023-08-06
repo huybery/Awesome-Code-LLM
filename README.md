@@ -58,6 +58,21 @@
   
     *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto. et al.* [[Paper](https://arxiv.org/abs/2107.03374)], 2021.07
 
+2. **CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis** `ICLR23`
+  
+    *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* [[Paper](https://arxiv.org/abs/2203.13474)], 2022.03
+
+2. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
+  
+    *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou* [[Paper](https://arxiv.org/abs/2305.02309)], 2023.05
+
+2. **SantaCoder: don't reach for the stars!** `Preprint`
+  
+    *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* [[Paper](https://arxiv.org/abs/2301.03988)], 2023.01
+
+3. **StarCoder: may the source be with you!** `Preprint`
+  
+    *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* [[Paper](https://arxiv.org/abs/2305.06161)], 2023.05
 
 
 ### ▶️ Instruction Tuning
