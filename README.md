@@ -16,6 +16,7 @@
   - [🙌 Contributors](#-contributors)
   - [Cite as](#cite-as)
   - [Acknowledgement](#acknowledgement)
+  - [Star History](#star-history)
 
 ## 🚀 Leaderboard
 
@@ -138,5 +139,10 @@ This is an active repository and your contributions are always welcome! If you h
 ## Acknowledgement
 
 This project is inspired by [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huybery/Awesome-Code-LLM&type=Date)](https://star-history.com/#huybery/Awesome-Code-LLM&Date)
+
 
 **[⬆ Back to ToC](#table-of-contents)**
