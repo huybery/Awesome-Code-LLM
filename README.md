@@ -7,7 +7,12 @@
 - [👨‍💻 Awesome-Code-LLM   ](#-awesome-code-llm---)
   - [🧵 Table of Contents](#-table-of-contents)
   - [Leaderboard](#leaderboard)
-    - [Toolkit](#toolkit)
+  - [Paper](#paper)
+    - [Pre-Training](#pre-training)
+    - [Instruction Tuning](#instruction-tuning)
+    - [Alignment with Feedback](#alignment-with-feedback)
+    - [Prompting](#prompting)
+    - [Evaluation \& Benchmark](#evaluation--benchmark)
   - [🙌 Contributors](#-contributors)
   - [Cite as](#cite-as)
   - [Acknowledgement](#acknowledgement)
@@ -16,35 +21,82 @@
 
 <p align="center"> <b>Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
-| Rank | Model                    | Params | HumanEval | MBPP | HF                                                       | Paper                                     |
-|------|--------------------------|--------|-----------|------|----------------------------------------------------------|-------------------------------------------|
-| 1    | GPT-4 + Relexion         | ?      | 91.0      | 77.1 |                                                          | [paper](https://arxiv.org/abs/2303.11366) |
-| 2    | GPT-4                    | ?      | 67.0      |      |                                                          | [paper](https://arxiv.org/abs/2303.08774) |
-| 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                          | [paper](https://arxiv.org/abs/2307.14936) |
-| 4    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)      | [paper](https://arxiv.org/abs/2306.08568) |
-| 5    | GPT-3.5                  | ?      | 48.1      |      |                                                          | [paper](https://arxiv.org/abs/2303.08774) |
-| 6    | Code-Davinci-002         | ?      | 47.0      |      |                                                          | [paper](https://arxiv.org/abs/2107.03374) |
-| 7    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://huggingface.co/bigcode/starcoder)         | [paper](https://arxiv.org/abs/2305.06161) |
-| 8    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                          | [paper](https://arxiv.org/abs/2204.02311) |
-| 9    | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                          | [paper](https://arxiv.org/abs/2204.02311) |
-| 10   | InstructCodeT5+          | 16B    | 35.0      |      |                                                          | [paper](https://arxiv.org/abs/2305.07922) |
-| 11   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://huggingface.co/bigcode/starcoder)         | [paper](https://arxiv.org/abs/2305.06161) |
-| 12   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                          | [paper](https://arxiv.org/abs/2107.03374) |
-| 13   | CodeT5+                  | 16B    | 30.9      |      |                                                          | [paper](https://arxiv.org/abs/2305.07922) |
-| 14   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://huggingface.co/meta-llama/Llama-2-70b-hf) | [paper](https://arxiv.org/abs/2307.09288) |
-| 15   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                          | [paper](https://arxiv.org/abs/2203.13474) |
-| 16   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                          | [paper](https://arxiv.org/abs/2204.02311) |
-| 17   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                          | [paper](https://arxiv.org/abs/2302.13971) |
-| 18   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                          | [paper](https://arxiv.org/abs/2303.17568) |
-| 19   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                          | [paper](https://arxiv.org/abs/2302.13971) |
-| 20   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                          | [paper](https://arxiv.org/abs/2203.13474) |
-| 21   | AlphaCode                | 1.1B   | 17.1      |      |                                                          | [paper](https://arxiv.org/abs/2203.07814) |
+| Rank | Model                    | Params | HumanEval | MBPP | HF                                                  | Paper                                     |
+|------|--------------------------|--------|-----------|------|-----------------------------------------------------|-------------------------------------------|
+| 1    | GPT-4 + Relexion         | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
+| 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
+| 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
+| 4    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
+| 5    | GPT-3.5                  | ?      | 48.1      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
+| 6    | Code-Davinci-002         | ?      | 47.0      |      |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
+| 7    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
+| 8    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 9    | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 10   | InstructCodeT5+          | 16B    | 35.0      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
+| 11   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
+| 12   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
+| 13   | CodeT5+                  | 16B    | 30.9      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
+| 14   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)     | [paper](https://arxiv.org/abs/2307.09288) |
+| 15   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
+| 16   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 17   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
+| 18   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                     | [paper](https://arxiv.org/abs/2303.17568) |
+| 19   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
+| 20   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
+| 21   | AlphaCode                | 1.1B   | 17.1      |      |                                                     | [paper](https://arxiv.org/abs/2203.07814) |
 
 
-### Toolkit
-
+💡 Toolkit:
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
 - [multilingual-code-evals](https://huggingface.co/spaces/bigcode/multilingual-code-evals): Multilingual Code Models Evaluation.
+
+## Paper
+
+### Pre-Training
+
+1. **Evaluating Large Language Models Trained on Code** `Preprint`
+  
+    *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto. et al.* [[Paper](https://arxiv.org/abs/2107.03374)], 2021.07
+
+
+
+### Instruction Tuning
+
+1. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
+  
+    *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[Paper](https://arxiv.org/abs/2306.08568)], 2023.07
+
+### Alignment with Feedback
+
+1. **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** `Preprint`
+  
+    *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang* [[Paper](https://arxiv.org/abs/2307.14936)], 2023.07
+
+### Prompting
+
+1. **CodeT: Code Generation with Generated Tests** `ICLR23`
+  
+    *Bei Chen, Fengji Zhang, Anh Nguyen, Daoguang Zan, Zeqi Lin, Jian-Guang Lou, Weizhu Chen* [[Paper](https://arxiv.org/abs/2207.10397)], 2022.07
+
+2. **Coder Reviewer Reranking for Code Generation** `ICML23`
+  
+    *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang* [[Paper](https://arxiv.org/abs/2211.16490)], 2022.11
+
+### Evaluation & Benchmark
+
+1. **Measuring Coding Challenge Competence With APPS** `NeurIPS21`
+  
+    *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* [[Paper](https://arxiv.org/abs/2108.07732)][[Repo](https://github.com/hendrycks/apps)], 2021.05
+
+    > APPS
+
+2. **Program Synthesis with Large Language Models** `Preprint`
+  
+    *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* [[Paper](https://arxiv.org/abs/2108.07732)], 2021.08
+
+    > MBPP
+
+
 
 ## 🙌 Contributors
 
