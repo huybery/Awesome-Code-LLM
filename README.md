@@ -6,8 +6,8 @@
 
 - [👨‍💻 Awesome-Code-LLM   ](#-awesome-code-llm---)
   - [🧵 Table of Contents](#-table-of-contents)
-  - [Leaderboard](#leaderboard)
-  - [Paper](#paper)
+  - [🚀 Leaderboard](#-leaderboard)
+  - [📚 Paper](#-paper)
     - [▶️ Pre-Training](#️-pre-training)
     - [▶️ Instruction Tuning](#️-instruction-tuning)
     - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
@@ -17,7 +17,7 @@
   - [Cite as](#cite-as)
   - [Acknowledgement](#acknowledgement)
 
-## Leaderboard
+## 🚀 Leaderboard
 
 <p align="center"> <b>Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
@@ -50,7 +50,7 @@
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
 - [multilingual-code-evals](https://huggingface.co/spaces/bigcode/multilingual-code-evals): Multilingual Code Models Evaluation.
 
-## Paper
+## 📚 Paper
 
 ### ▶️ Pre-Training
 
