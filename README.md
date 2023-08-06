@@ -56,46 +56,46 @@
 
 1. **Evaluating Large Language Models Trained on Code** `Preprint`
   
-    *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto. et al.* [[Paper](https://arxiv.org/abs/2107.03374)], 2021.07
+    [[Paper](https://arxiv.org/abs/2107.03374)] *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto. et al.* , 2021.07
 
 2. **CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis** `ICLR23`
   
-    *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* [[Paper](https://arxiv.org/abs/2203.13474)], 2022.03
+    [[Paper](https://arxiv.org/abs/2203.13474)] *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* , 2022.03
 
 2. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
   
-    *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou* [[Paper](https://arxiv.org/abs/2305.02309)], 2023.05
+    [[Paper](https://arxiv.org/abs/2305.02309)] *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou* , 2023.05
 
 2. **SantaCoder: don't reach for the stars!** `Preprint`
   
-    *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* [[Paper](https://arxiv.org/abs/2301.03988)], 2023.01
+    [[Paper](https://arxiv.org/abs/2301.03988)] *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* , 2023.01
 
 3. **StarCoder: may the source be with you!** `Preprint`
   
-    *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* [[Paper](https://arxiv.org/abs/2305.06161)], 2023.05
+    [[Paper](https://arxiv.org/abs/2305.06161)] *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* , 2023.05
 
 
 ### ▶️ Instruction Tuning
 
 1. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
   
-    *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[Paper](https://arxiv.org/abs/2306.08568)], 2023.07
+    [[Paper](https://arxiv.org/abs/2306.08568)] *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* , 2023.07
 
 ### ▶️ Alignment with Feedback
 
 1. **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** `Preprint`
   
-    *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang* [[Paper](https://arxiv.org/abs/2307.14936)], 2023.07
+    [[Paper](https://arxiv.org/abs/2307.14936)] *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang* , 2023.07
 
 ### ▶️ Prompting
 
 1. **CodeT: Code Generation with Generated Tests** `ICLR23`
   
-    *Bei Chen, Fengji Zhang, Anh Nguyen, Daoguang Zan, Zeqi Lin, Jian-Guang Lou, Weizhu Chen* [[Paper](https://arxiv.org/abs/2207.10397)], 2022.07
+    [[Paper](https://arxiv.org/abs/2207.10397)] *Bei Chen, Fengji Zhang, Anh Nguyen, Daoguang Zan, Zeqi Lin, Jian-Guang Lou, Weizhu Chen* , 2022.07
 
 2. **Coder Reviewer Reranking for Code Generation** `ICML23`
   
-    *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang* [[Paper](https://arxiv.org/abs/2211.16490)], 2022.11
+    [[Paper](https://arxiv.org/abs/2211.16490)] *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang* , 2022.11
 
 ### ▶️ Evaluation & Benchmark
 
@@ -103,14 +103,14 @@
 
     > Named APPS
   
-    *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* [[Paper](https://arxiv.org/abs/2108.07732)][[Repo](https://github.com/hendrycks/apps)], 2021.05
+    [[Paper](https://arxiv.org/abs/2108.07732)][[Repo](https://github.com/hendrycks/apps)] *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* , 2021.05
 
 
 2. **Program Synthesis with Large Language Models** `Preprint`
 
     > Named MBPP
   
-    *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* [[Paper](https://arxiv.org/abs/2108.07732)], 2021.08
+    [[Paper](https://arxiv.org/abs/2108.07732)] *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* , 2021.08
 
 
 
