@@ -8,11 +8,11 @@
   - [🧵 Table of Contents](#-table-of-contents)
   - [Leaderboard](#leaderboard)
   - [Paper](#paper)
-    - [Pre-Training](#pre-training)
-    - [Instruction Tuning](#instruction-tuning)
-    - [Alignment with Feedback](#alignment-with-feedback)
-    - [Prompting](#prompting)
-    - [Evaluation \& Benchmark](#evaluation--benchmark)
+    - [1️⃣ Pre-Training](#1️⃣-pre-training)
+    - [2️⃣ Instruction Tuning](#2️⃣-instruction-tuning)
+    - [3️⃣ Alignment with Feedback](#3️⃣-alignment-with-feedback)
+    - [4️⃣ Prompting](#4️⃣-prompting)
+    - [5️⃣ Evaluation \& Benchmark](#5️⃣-evaluation--benchmark)
   - [🙌 Contributors](#-contributors)
   - [Cite as](#cite-as)
   - [Acknowledgement](#acknowledgement)
@@ -52,7 +52,7 @@
 
 ## Paper
 
-### Pre-Training
+### 1️⃣ Pre-Training
 
 1. **Evaluating Large Language Models Trained on Code** `Preprint`
   
@@ -60,19 +60,19 @@
 
 
 
-### Instruction Tuning
+### 2️⃣ Instruction Tuning
 
 1. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
   
     *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[Paper](https://arxiv.org/abs/2306.08568)], 2023.07
 
-### Alignment with Feedback
+### 3️⃣ Alignment with Feedback
 
 1. **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** `Preprint`
   
     *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang* [[Paper](https://arxiv.org/abs/2307.14936)], 2023.07
 
-### Prompting
+### 4️⃣ Prompting
 
 1. **CodeT: Code Generation with Generated Tests** `ICLR23`
   
@@ -82,19 +82,23 @@
   
     *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang* [[Paper](https://arxiv.org/abs/2211.16490)], 2022.11
 
-### Evaluation & Benchmark
+### 5️⃣ Evaluation & Benchmark
 
 1. **Measuring Coding Challenge Competence With APPS** `NeurIPS21`
+
+    > Named APPS
   
     *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* [[Paper](https://arxiv.org/abs/2108.07732)][[Repo](https://github.com/hendrycks/apps)], 2021.05
 
-    > APPS
 
 2. **Program Synthesis with Large Language Models** `Preprint`
+
+    > Named MBPP
   
     *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* [[Paper](https://arxiv.org/abs/2108.07732)], 2021.08
 
-    > MBPP
+
+
 
 
 
