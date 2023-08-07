@@ -63,17 +63,21 @@
   
     [[Paper](https://arxiv.org/abs/2203.13474)] *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* , 2022.03
 
-2. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
+3. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
   
     [[Paper](https://arxiv.org/abs/2305.02309)] *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou* , 2023.05
 
-2. **SantaCoder: don't reach for the stars!** `Preprint`
+4. **SantaCoder: don't reach for the stars!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2301.03988)] *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* , 2023.01
 
-3. **StarCoder: may the source be with you!** `Preprint`
+5. **StarCoder: may the source be with you!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2305.06161)] *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* , 2023.05
+
+6. **Textbooks Are All You Need** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2306.11644)] *Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi. et al.* , 2023.06
 
 
 ### ▶️ Instruction Tuning
