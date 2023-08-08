@@ -23,7 +23,7 @@
 <p align="center"> <b>Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
 | Rank | Model                    | Params | HumanEval | MBPP | HF                                                  | Paper                                     |
-|------|--------------------------|--------|-----------|------|-----------------------------------------------------|-------------------------------------------|
+| ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
 | 1    | GPT-4 + Relexion         | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
 | 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
 | 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
@@ -63,21 +63,30 @@
   
     [[Paper](https://arxiv.org/abs/2203.13474)] *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong.* 2022.03
 
-3. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
-  
-    [[Paper](https://arxiv.org/abs/2305.02309)] *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou.* 2023.05
-
-4. **SantaCoder: don't reach for the stars!** `Preprint`
+3. **SantaCoder: don't reach for the stars!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2301.03988)] *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* 2023.01
 
-5. **StarCoder: may the source be with you!** `Preprint`
+4. **CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2303.17568)] *Qinkai Zheng, Xiao Xia, Xu Zou, Yuxiao Dong, Shan Wang, Yufei Xue, Zihan Wang, Lei Shen, Andi Wang, Yang Li, Teng Su, Zhilin Yang, Jie Tang.* 2023.03
+
+5. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
+  
+    [[Paper](https://arxiv.org/abs/2305.02309)] *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou.* 2023.05
+
+6. **StarCoder: may the source be with you!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2305.06161)] *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* 2023.05
 
-6. **Textbooks Are All You Need** `Preprint`
+7. **CodeT5+: Open Code Large Language Models for Code Understanding and Generation** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2305.07922)] *Yue Wang, Hung Le, Akhilesh Deepak Gotmare, Nghi D.Q. Bui, Junnan Li, Steven C.H. Hoi.* 2023.05
+
+8. **Textbooks Are All You Need** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.11644)] *Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi. et al.* 2023.06
+
 
 
 ### ▶️ Instruction Tuning
@@ -86,11 +95,25 @@
   
     [[Paper](https://arxiv.org/abs/2306.08568)] *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang.* 2023.07
 
+
 ### ▶️ Alignment with Feedback
 
-1. **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** `Preprint`
+1. **CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning** `NeurIPS22`
+  
+    [[Paper](https://arxiv.org/abs/2207.01780)] *Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, Steven C.H. Hoi.* 2022.07 
+
+2. **Execution-based Code Generation using Deep Reinforcement Learning** `TMLR23`
+  
+    [[Paper](https://arxiv.org/abs/2301.13816)] *Parshin Shojaee, Aneesh Jain, Sindhu Tipirneni, Chandan K. Reddy.* 2023.01 
+
+3. **RLTF: Reinforcement Learning from Unit Test Feedback** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2307.04349)] *Jiate Liu, Yiqin Zhu, Kaiwen Xiao, Qiang Fu, Xiao Han, Wei Yang, Deheng Ye.* 2023.07 
+
+4. **PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2307.14936)] *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang.* 2023.07 
+
 
 ### ▶️ Prompting
 
@@ -124,15 +147,19 @@
   
     [[Paper](https://arxiv.org/abs/2108.07732)][[Repo](https://github.com/hendrycks/apps)] *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt.* 2021.05 
 
-
 2. **Program Synthesis with Large Language Models** `Preprint`
 
     > Named MBPP
   
     [[Paper](https://arxiv.org/abs/2108.07732)] *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton.* 2021.08 
 
+3. **DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation** `ICML23`
 
+    [[Paper](https://arxiv.org/abs/2211.11501)] *Yuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida Wang, Tao Yu.* 2022.11 
 
+4. **RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2306.03091)] *Tianyang Liu, Canwen Xu, Julian McAuley.* 2023.06 
 
 
 
