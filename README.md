@@ -102,12 +102,16 @@
   
     [[Paper](https://arxiv.org/abs/2211.16490)] *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang.* 2022.11
 
-3. **Teaching Large Language Models to Self-Debug** `Preprint`
+3. **LEVER: Learning to Verify Language-to-Code Generation with Execution** `ICML23`
+  
+    [[Paper](https://arxiv.org/abs/2302.08468)] *Ansong Ni, Srini Iyer, Dragomir Radev, Ves Stoyanov, Wen-tau Yih, Sida I. Wang, Xi Victoria Lin.* 2023.02
+
+4. **Teaching Large Language Models to Self-Debug** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2304.05128)] *Xinyun Chen, Maxwell Lin, Nathanael Schärli, Denny Zhou.* 2023.06
 
 
-4. **Demystifying GPT Self-Repair for Code Generation** `Preprint`
+5. **Demystifying GPT Self-Repair for Code Generation** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.09896)] *Theo X. Olausson, Jeevana Priya Inala, Chenglong Wang, Jianfeng Gao, Armando Solar-Lezama.* 2023.06
 
