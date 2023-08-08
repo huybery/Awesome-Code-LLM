@@ -102,6 +102,16 @@
   
     [[Paper](https://arxiv.org/abs/2211.16490)] *Tianyi Zhang, Tao Yu, Tatsunori B Hashimoto, Mike Lewis, Wen-tau Yih, Daniel Fried, Sida I Wang.* 2022.11
 
+3. **Teaching Large Language Models to Self-Debug** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2304.05128)] *Xinyun Chen, Maxwell Lin, Nathanael Schärli, Denny Zhou.* 2023.06
+
+
+4. **Demystifying GPT Self-Repair for Code Generation** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2306.09896)] *Theo X. Olausson, Jeevana Priya Inala, Chenglong Wang, Jianfeng Gao, Armando Solar-Lezama.* 2023.06
+
+
 ### ▶️ Evaluation & Benchmark
 
 1. **Measuring Coding Challenge Competence With APPS** `NeurIPS21`
