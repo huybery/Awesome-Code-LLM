@@ -24,7 +24,7 @@
 
 | Rank | Model                    | Params | HumanEval | MBPP | HF                                                  | Paper                                     |
 | ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
-| 1    | GPT-4 + Relexion         | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
+| 1    | GPT-4 + Reflexion         | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
 | 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
 | 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
 | 4    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
