@@ -97,7 +97,7 @@
 
 2. **OctoPack: Instruction Tuning Code Large Language Models** `Preprint`
   
-    [[Paper](https://arxiv.org/abs/2308.07124)] *Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, Shayne Longpre.* 2023.08
+    [[Paper](https://arxiv.org/abs/2308.07124)][[Repo](https://github.com/bigcode-project/octopack)] *Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, Shayne Longpre.* 2023.08
 
 
 ### ▶️ Alignment with Feedback
