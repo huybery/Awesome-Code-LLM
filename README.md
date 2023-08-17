@@ -24,7 +24,7 @@
 
 | Rank | Model                    | Params | HumanEval | MBPP | HF                                                  | Paper                                     |
 | ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
-| 1    | GPT-4 + Reflexion         | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
+| 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
 | 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
 | 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
 | 4    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
@@ -94,6 +94,10 @@
 1. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.08568)] *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang.* 2023.07
+
+2. **OctoPack: Instruction Tuning Code Large Language Models** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2308.07124)] *Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, Shayne Longpre.* 2023.08
 
 
 ### ▶️ Alignment with Feedback
