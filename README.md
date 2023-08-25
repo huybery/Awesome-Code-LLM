@@ -26,7 +26,7 @@
 | ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
 | 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
 | 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
-| 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                     | [paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=BnkB4kcpz5AAX9kJmnq&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDk1DUUkNXLvMWb8tjPbZ_d1mvrtdl0AkTkhwf7svqHPw&oe=64ECB20F) |
+| 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                     | [paper](https://arxiv.org/abs/2308.12950) |
 | 4    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
 | 5    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
 | 6    | GPT-3.5                  | ?      | 48.1      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
@@ -90,7 +90,7 @@
 
 9. **Code Llama: Open Foundation Models for Code** `Preprint`
   
-    [[Paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=BnkB4kcpz5AAX9kJmnq&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDk1DUUkNXLvMWb8tjPbZ_d1mvrtdl0AkTkhwf7svqHPw&oe=64ECB20F)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
+    [[Paper](https://arxiv.org/abs/2308.12950)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
 
 
 
