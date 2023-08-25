@@ -90,7 +90,7 @@
 
 9. **Code Llama: Open Foundation Models for Code** `Preprint`
   
-    [[Paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=BnkB4kcpz5AAX9kJmnq&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDk1DUUkNXLvMWb8tjPbZ_d1mvrtdl0AkTkhwf7svqHPw&oe=64ECB20F)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle†, Sten Sootla†, Itai Gat. et al.* 2023.08
+    [[Paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=BnkB4kcpz5AAX9kJmnq&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDk1DUUkNXLvMWb8tjPbZ_d1mvrtdl0AkTkhwf7svqHPw&oe=64ECB20F)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
 
 
 
