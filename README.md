@@ -26,25 +26,26 @@
 | ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
 | 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
 | 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
-| 3    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
-| 4    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
-| 5    | GPT-3.5                  | ?      | 48.1      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
-| 6    | Code-Davinci-002         | ?      | 47.0      |      |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
-| 7    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
-| 8    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 9    | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 10   | InstructCodeT5+          | 16B    | 35.0      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
-| 11   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
-| 12   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
-| 13   | CodeT5+                  | 16B    | 30.9      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
-| 14   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)     | [paper](https://arxiv.org/abs/2307.09288) |
-| 15   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
-| 16   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 17   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
-| 18   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                     | [paper](https://arxiv.org/abs/2303.17568) |
-| 19   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
-| 20   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
-| 21   | AlphaCode                | 1.1B   | 17.1      |      |                                                     | [paper](https://arxiv.org/abs/2203.07814) |
+| 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                     | [paper](https://scontent-hkg4-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=BnkB4kcpz5AAX9kJmnq&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDk1DUUkNXLvMWb8tjPbZ_d1mvrtdl0AkTkhwf7svqHPw&oe=64ECB20F) |
+| 4    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
+| 5    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
+| 6    | GPT-3.5                  | ?      | 48.1      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
+| 7    | Code-Davinci-002         | ?      | 47.0      |      |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
+| 8    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
+| 9    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 10   | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 11   | InstructCodeT5+          | 16B    | 35.0      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
+| 12   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
+| 13   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
+| 14   | CodeT5+                  | 16B    | 30.9      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
+| 15   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)     | [paper](https://arxiv.org/abs/2307.09288) |
+| 16   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
+| 17   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
+| 18   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
+| 19   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                     | [paper](https://arxiv.org/abs/2303.17568) |
+| 20   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
+| 21   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
+| 22   | AlphaCode                | 1.1B   | 17.1      |      |                                                     | [paper](https://arxiv.org/abs/2203.07814) |
 
 
 💡 Toolkit:
