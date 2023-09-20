@@ -147,6 +147,10 @@
   
     [[Paper](https://arxiv.org/abs/2306.09896)] *Theo X. Olausson, Jeevana Priya Inala, Chenglong Wang, Jianfeng Gao, Armando Solar-Lezama.* 2023.06
 
+6. **SelfEvolve: A Code Evolution Framework via Large Language Models** `Preprint`
+   
+    [[Paper](https://arxiv.org/abs/2306.02907)] *Shuyang Jiang, Yuhao Wang, Yu Wang.* 2023.06
+
 
 ### ▶️ Evaluation & Benchmark
 
