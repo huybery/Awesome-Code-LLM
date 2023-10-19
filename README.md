@@ -174,7 +174,9 @@
 
     [[Paper](https://arxiv.org/abs/2306.03091)] *Tianyang Liu, Canwen Xu, Julian McAuley.* 2023.06 
 
+5. **Can ChatGPT replace StackOverflow? A Study on Robustness and Reliability of Large Language Model Code Generation** `Preprint`
 
+    [[Paper](https://arxiv.org/abs/2308.10335)] *Li Zhong, Zilong Wang.* 2023.08
 
 ## 🙌 Contributors
 
