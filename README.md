@@ -13,6 +13,7 @@
     - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
     - [▶️ Prompting](#️-prompting)
     - [▶️ Evaluation \& Benchmark](#️-evaluation--benchmark)
+    - [▶️ Using LLMs while coding](#️-using-llms-while-coding)
   - [🙌 Contributors](#-contributors)
   - [Cite as](#cite-as)
   - [Acknowledgement](#acknowledgement)
@@ -178,11 +179,19 @@
 
     [[Paper](https://arxiv.org/abs/2308.10335)] *Li Zhong, Zilong Wang.* 2023.08
 
+
+### ▶️ Using LLMs while coding
+
+1.  **Awesome-DevAI: A list of resources about using LLMs while building software** `Awesome`
+
+    [[Repo](https://github.com/continuedev/Awesome-DevAI)] *Ty Dunn, Nate Sesti.* 2023.10
+
 ## 🙌 Contributors
 
 <a href="https://github.com/huybery"><img src="https://avatars.githubusercontent.com/u/13436140?v=4"  width="50" /></a>
 <a href="https://github.com/Yangjiaxi"><img src="https://avatars.githubusercontent.com/u/6203054?v=4"  width="50" /></a>
 <a href="https://github.com/GanjinZero"><img src="https://avatars.githubusercontent.com/u/19466330?v=4"  width="50" /></a>
+<a href="https://github.com/TyDunn"><img src="https://avatars.githubusercontent.com/u/13314504?v=4"  width="50" /></a>
 
 This is an active repository and your contributions are always welcome! If you have any question about this opinionated list, do not hesitate to contact me `huybery@gmail.com`.
 
