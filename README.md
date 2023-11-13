@@ -18,6 +18,7 @@
 - [👨‍💻 Awesome-Code-LLM   ](#-awesome-code-llm---)
   - [🧵 Table of Contents](#-table-of-contents)
   - [🚀 Leaderboard](#-leaderboard)
+  - [💡 Evaluation Toolkit](#-evaluation-toolkit)
   - [📚 Paper](#-paper)
     - [▶️ Pre-Training](#️-pre-training)
     - [▶️ Instruction Tuning](#️-instruction-tuning)
