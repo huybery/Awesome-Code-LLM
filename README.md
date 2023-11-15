@@ -38,7 +38,7 @@
 | 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                               | [paper](https://arxiv.org/abs/2303.11366)               |
 | 1    | GPT-4 (latest)           | ?      | 84.1      | 80.0 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
 | 2    | DeepSeek-Coder-Instruct  | 33B    | 79.3      | 70.0 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |  |
-| 2    | GPT-3.5-Turbo            | ?      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| 2    | GPT-3.5-Turbo (latest)   | ?      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
 | 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                               | [paper](https://arxiv.org/abs/2308.12950)               |
 | 4    | Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.14936)               |
 | 5    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.08568)               |
