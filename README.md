@@ -15,49 +15,49 @@
 
 ## 🧵 Table of Contents
 
-- [👨‍💻 Awesome-Code-LLM   ](#-awesome-code-llm---)
-  - [🧵 Table of Contents](#-table-of-contents)
-  - [🚀 Leaderboard](#-leaderboard)
-  - [📚 Paper](#-paper)
-    - [▶️ Pre-Training](#️-pre-training)
-    - [▶️ Instruction Tuning](#️-instruction-tuning)
-    - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
-    - [▶️ Prompting](#️-prompting)
-    - [▶️ Evaluation \& Benchmark](#️-evaluation--benchmark)
-    - [▶️ Using LLMs while coding](#️-using-llms-while-coding)
-  - [🙌 Contributors](#-contributors)
-  - [Cite as](#cite-as)
-  - [Acknowledgement](#acknowledgement)
-  - [Star History](#star-history)
+- [🧵 Table of Contents](#-table-of-contents)
+- [🚀 Leaderboard](#-leaderboard)
+- [📚 Paper](#-paper)
+  - [▶️ Pre-Training](#️-pre-training)
+  - [▶️ Instruction Tuning](#️-instruction-tuning)
+  - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
+  - [▶️ Prompting](#️-prompting)
+  - [▶️ Evaluation \& Benchmark](#️-evaluation--benchmark)
+  - [▶️ Using LLMs while coding](#️-using-llms-while-coding)
+- [🙌 Contributors](#-contributors)
+- [Cite as](#cite-as)
+- [Acknowledgement](#acknowledgement)
+- [Star History](#star-history)
 
 ## 🚀 Leaderboard
 
 <p align="center"> <b>Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
-| Rank | Model                    | Params | HumanEval | MBPP | HF                                                  | Paper                                     |
-| ---- | ------------------------ | ------ | --------- | ---- | --------------------------------------------------- | ----------------------------------------- |
-| 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                     | [paper](https://arxiv.org/abs/2303.11366) |
-| 2    | GPT-4                    | ?      | 67.0      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
-| 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                     | [paper](https://arxiv.org/abs/2308.12950) |
-| 4    | Pangu-Coder2             | 15B    | 61.6      |      |                                                     | [paper](https://arxiv.org/abs/2307.14936) |
-| 5    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0) | [paper](https://arxiv.org/abs/2306.08568) |
-| 6    | GPT-3.5                  | ?      | 48.1      |      |                                                     | [paper](https://arxiv.org/abs/2303.08774) |
-| 7    | Code-Davinci-002         | ?      | 47.0      |      |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
-| 8    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
-| 9    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 10   | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 11   | InstructCodeT5+          | 16B    | 35.0      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
-| 12   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)             | [paper](https://arxiv.org/abs/2305.06161) |
-| 13   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                     | [paper](https://arxiv.org/abs/2107.03374) |
-| 14   | CodeT5+                  | 16B    | 30.9      |      |                                                     | [paper](https://arxiv.org/abs/2305.07922) |
-| 15   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)     | [paper](https://arxiv.org/abs/2307.09288) |
-| 16   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
-| 17   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                     | [paper](https://arxiv.org/abs/2204.02311) |
-| 18   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
-| 19   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                     | [paper](https://arxiv.org/abs/2303.17568) |
-| 20   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                     | [paper](https://arxiv.org/abs/2302.13971) |
-| 21   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                     | [paper](https://arxiv.org/abs/2203.13474) |
-| 22   | AlphaCode                | 1.1B   | 17.1      |      |                                                     | [paper](https://arxiv.org/abs/2203.07814) |
+| Rank | Model                    | Params | HumanEval | MBPP | HF                                                            | Source                                                  |
+| ---- | ------------------------ | ------ | --------- | ---- | ------------------------------------------------------------- | ------------------------------------------------------- |
+| 1    | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                               | [paper](https://arxiv.org/abs/2303.11366)               |
+| 1    | GPT-4 (latest)           | ?      | 84.1      | 80.0 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| 2    | DeepSeek-Coder-Instruct  | 33B    | 79.3      | 70.0 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |  |
+| 2    | GPT-3.5-Turbo            | ?      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| 3    | Code-Llama               | 34B    | 62.2      | 61.2 |                                                               | [paper](https://arxiv.org/abs/2308.12950)               |
+| 4    | Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.14936)               |
+| 5    | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.08568)               |
+| 7    | Code-Davinci-002         | ?      | 47.0      |      |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
+| 8    | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
+| 9    | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| 10   | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| 11   | InstructCodeT5+          | 16B    | 35.0      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
+| 12   | StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
+| 13   | Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
+| 14   | CodeT5+                  | 16B    | 30.9      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
+| 15   | LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)               | [paper](https://arxiv.org/abs/2307.09288)               |
+| 16   | CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
+| 17   | PaLM-540B                | 540B   | 26.2      | 36.8 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| 18   | LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
+| 19   | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                               | [paper](https://arxiv.org/abs/2303.17568)               |
+| 20   | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
+| 21   | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
+| 22   | AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
 
 
 💡 Toolkit:
@@ -103,7 +103,6 @@
 9. **Code Llama: Open Foundation Models for Code** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2308.12950)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
-
 
 
 ### ▶️ Instruction Tuning
