@@ -15,21 +15,21 @@
 
 ## 🧵 Table of Contents
 
-- [👨‍💻 Awesome-Code-LLM   ](#-awesome-code-llm---)
-  - [🧵 Table of Contents](#-table-of-contents)
-  - [🚀 Leaderboard](#-leaderboard)
-  - [💡 Evaluation Toolkit](#-evaluation-toolkit)
-  - [📚 Paper](#-paper)
-    - [▶️ Pre-Training](#️-pre-training)
-    - [▶️ Instruction Tuning](#️-instruction-tuning)
-    - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
-    - [▶️ Prompting](#️-prompting)
-    - [▶️ Evaluation \& Benchmark](#️-evaluation--benchmark)
-    - [▶️ Using LLMs while coding](#️-using-llms-while-coding)
-  - [🙌 Contributors](#-contributors)
-  - [Cite as](#cite-as)
-  - [Acknowledgement](#acknowledgement)
-  - [Star History](#star-history)
+=======
+- [🧵 Table of Contents](#-table-of-contents)
+- [🚀 Leaderboard](#-leaderboard)
+- [💡 Evaluation Toolkit](#-evaluation-toolkit)
+- [📚 Paper](#-paper)
+  - [▶️ Pre-Training](#️-pre-training)
+  - [▶️ Instruction Tuning](#️-instruction-tuning)
+  - [▶️ Alignment with Feedback](#️-alignment-with-feedback)
+  - [▶️ Prompting](#️-prompting)
+  - [▶️ Evaluation \& Benchmark](#️-evaluation--benchmark)
+  - [▶️ Using LLMs while coding](#️-using-llms-while-coding)
+- [🙌 Contributors](#-contributors)
+- [Cite as](#cite-as)
+- [Acknowledgement](#acknowledgement)
+- [Star History](#star-history)
 
 ## 🚀 Leaderboard
 
@@ -39,6 +39,7 @@
 | InterCode                   | [[Source](https://intercode-benchmark.github.io/)]                           |
 
 ## 💡 Evaluation Toolkit:
+
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
 - [multilingual-code-evals](https://huggingface.co/spaces/bigcode/multilingual-code-evals): Multilingual Code Models Evaluation.
 
@@ -81,7 +82,6 @@
 9. **Code Llama: Open Foundation Models for Code** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2308.12950)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
-
 
 
 ### ▶️ Instruction Tuning
