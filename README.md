@@ -44,7 +44,7 @@
 | Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.1             |
 | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.0             |
 | Code-Davinci-002         | ?      | 47.0      |      |                                                               | [paper](https://arxiv.org/abs/2107.0             |
-|| StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.0             |
+| StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.0             |
 | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                               | [paper](https://arxiv.org/abs/2204.0             |
 | PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                               | [paper](https://arxiv.org/abs/2204.0             |
 | InstructCodeT5+          | 16B    | 35.0      |      |                                                               | [paper](https://arxiv.org/abs/2305.0             |
@@ -58,7 +58,7 @@
 | CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                               | [paper](https://arxiv.org/abs/2303.1             |
 | LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                               | [paper](https://arxiv.org/abs/2302.1             |
 | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.1             |
-| AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
+| AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)        |
 
 
 💡 Toolkit:
