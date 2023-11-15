@@ -15,7 +15,6 @@
 
 ## 🧵 Table of Contents
 
-=======
 - [🧵 Table of Contents](#-table-of-contents)
 - [🚀 Leaderboard](#-leaderboard)
 - [💡 Evaluation Toolkit](#-evaluation-toolkit)
