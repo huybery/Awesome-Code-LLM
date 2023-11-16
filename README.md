@@ -35,6 +35,7 @@
 | Platform                    | Access                                                                       |
 | :-------------------------: | -----------------------------------------------------------------------------|
 | Big Code Models Leaderboard | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)] |
+| EvalPlus                    | [[Source](https://evalplus.github.io/leaderboard.html)]                      |
 | InterCode                   | [[Source](https://intercode-benchmark.github.io/)]                           |
 
 ## 💡 Evaluation Toolkit:
