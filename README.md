@@ -41,6 +41,7 @@
 ## 💡 Evaluation Toolkit:
 
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
+- [code-eval](https://github.com/abacaj/code-eval): A framework for the evaluation of autoregressive code generation language models on human eval.
 - [multilingual-code-evals](https://huggingface.co/spaces/bigcode/multilingual-code-evals): Multilingual Code Models Evaluation.
 
 ## 📚 Paper
