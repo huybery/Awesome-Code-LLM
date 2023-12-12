@@ -32,11 +32,43 @@
 
 ## 🚀 Leaderboard
 
-| Platform                    | Access                                                                       |
+<p align="center"> <b>Central Leaderboard</b> (Sort by HumanEval Pass@1) </p>
+
+| Model                    | Params | HumanEval | MBPP | HF                                                            | Source                                                  |
+| ------------------------ | ------ | --------- | ---- | ------------------------------------------------------------- | ------------------------------------------------------- |
+| GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                               | [paper](https://arxiv.org/abs/2303.11366)               |
+| GPT-4 (latest)           | ?      | 84.1      | 80.0 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| DeepSeek-Coder-Instruct  | 33B    | 79.3      | 70.0 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| DeepSeek-Coder-Instruct  | 7B     | 78.6      | 65.4 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| GPT-3.5-Turbo (latest)   | ?      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| Code-Llama               | 34B    | 62.2      | 61.2 |                                                               | [paper](https://arxiv.org/abs/2308.12950)               |
+| Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.14936)               |
+| WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.08568)               |
+| Code-Davinci-002         | ?      | 47.0      |      |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
+| StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
+| PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| InstructCodeT5+          | 16B    | 35.0      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
+| StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
+| Code-Cushman-001         | ?      | 33.5      | 45.9 |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
+| CodeT5+                  | 16B    | 30.9      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
+| LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)               | [paper](https://arxiv.org/abs/2307.09288)               |
+| CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
+| PaLM-540B                | 540B   | 26.2      | 36.8 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
+| LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
+| CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                               | [paper](https://arxiv.org/abs/2303.17568)               |
+| LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
+| CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
+| AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
+
+| Leaderboard                 | Access                                                                       |
 | :-------------------------: | -----------------------------------------------------------------------------|
 | Big Code Models Leaderboard | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)] |
+| Coding LLMs Leaderboard     | [[Source](https://leaderboard.tabbyml.com/)]                                 |
 | EvalPlus                    | [[Source](https://evalplus.github.io/leaderboard.html)]                      |
+| InfiCoder-Eval              | [[Source](https://infi-coder.github.io/inficoder-eval/)]                     |
 | InterCode                   | [[Source](https://intercode-benchmark.github.io/)]                           |
+| Spider                      | [[Source](https://yale-lily.github.io/spider)]                               |
 
 ## 💡 Evaluation Toolkit:
 
