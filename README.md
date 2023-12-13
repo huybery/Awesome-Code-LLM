@@ -17,6 +17,7 @@
 
 - [🧵 Table of Contents](#-table-of-contents)
 - [🚀 Leaderboard](#-leaderboard)
+- [💡 Evaluation Toolkit](#-evaluation-toolkit)
 - [📚 Paper](#-paper)
   - [▶️ Pre-Training](#️-pre-training)
   - [▶️ Instruction Tuning](#️-instruction-tuning)
@@ -31,7 +32,7 @@
 
 ## 🚀 Leaderboard
 
-<p align="center"> <b>Leaderboard</b> (Sort by HumanEval Pass@1) </p>
+<p align="center"> <b>Central Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
 | Model                    | Params | HumanEval | MBPP | HF                                                            | Source                                                  |
 | ------------------------ | ------ | --------- | ---- | ------------------------------------------------------------- | ------------------------------------------------------- |
@@ -60,10 +61,19 @@
 | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
 | AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
 
+| Leaderboard                 | Access                                                                       |
+| :-------------------------: | -----------------------------------------------------------------------------|
+| Big Code Models Leaderboard | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)] |
+| Coding LLMs Leaderboard     | [[Source](https://leaderboard.tabbyml.com/)]                                 |
+| EvalPlus                    | [[Source](https://evalplus.github.io/leaderboard.html)]                      |
+| InfiCoder-Eval              | [[Source](https://infi-coder.github.io/inficoder-eval/)]                     |
+| InterCode                   | [[Source](https://intercode-benchmark.github.io/)]                           |
+| Spider                      | [[Source](https://yale-lily.github.io/spider)]                               |
 
-💡 Toolkit:
+## 💡 Evaluation Toolkit:
+
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
-- [multilingual-code-evals](https://huggingface.co/spaces/bigcode/multilingual-code-evals): Multilingual Code Models Evaluation.
+- [code-eval](https://github.com/abacaj/code-eval): A framework for the evaluation of autoregressive code generation language models on HumanEval.
 
 ## 📚 Paper
 
