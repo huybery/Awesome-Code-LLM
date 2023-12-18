@@ -61,15 +61,16 @@
 | CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
 | AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
 
-| Leaderboard                 | Access                                                                       |
-| :-------------------------: | -----------------------------------------------------------------------------|
-| Big Code Models Leaderboard | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)] |
-| BIRD                        | [[Source](https://bird-bench.github.io/)]                                    |
-| Coding LLMs Leaderboard     | [[Source](https://leaderboard.tabbyml.com/)]                                 |
-| EvalPlus                    | [[Source](https://evalplus.github.io/leaderboard.html)]                      |
-| InfiCoder-Eval              | [[Source](https://infi-coder.github.io/inficoder-eval/)]                     |
-| InterCode                   | [[Source](https://intercode-benchmark.github.io/)]                           |
-| Spider                      | [[Source](https://yale-lily.github.io/spider)]                               |
+| Leaderboard                          | Access                                                                            |
+| :----------------------------------: | ----------------------------------------------------------------------------------|
+| Big Code Models Leaderboard          | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)]      |
+| BIRD                                 | [[Source](https://bird-bench.github.io)]                                          |
+| Coding LLMs Leaderboard              | [[Source](https://leaderboard.tabbyml.com)]                                       |
+| EvalPlus                             | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
+| InfiCoder-Eval                       | [[Source](https://infi-coder.github.io/inficoder-eval)]                           |
+| InterCode                            | [[Source](https://intercode-benchmark.github.io)]                                 |
+| Program Synthesis Models Leaderboard | [[Source](https://accubits.com/open-source-program-synthesis-models-leaderboard)] |
+| Spider                               | [[Source](https://yale-lily.github.io/spider)]                                    |
 
 ## 💡 Evaluation Toolkit:
 
