@@ -65,6 +65,7 @@
 | :----------------------------------: | ----------------------------------------------------------------------------------|
 | Big Code Models Leaderboard          | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)]      |
 | BIRD                                 | [[Source](https://bird-bench.github.io)]                                          |
+| CanAiCode Leaderboard                | [[Source](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)]        |
 | Coding LLMs Leaderboard              | [[Source](https://leaderboard.tabbyml.com)]                                       |
 | EvalPlus                             | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
 | InfiCoder-Eval                       | [[Source](https://infi-coder.github.io/inficoder-eval)]                           |
