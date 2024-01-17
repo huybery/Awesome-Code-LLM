@@ -90,31 +90,35 @@
   
     [[Paper](https://arxiv.org/abs/2203.13474)] *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong.* 2022.03
 
-3. **SantaCoder: don't reach for the stars!** `Preprint`
+3. **ERNIE-Code: Beyond English-Centric Cross-lingual Pretraining for Programming Languages** `ACL23 (Findings)`
+
+    [[Paper](https://aclanthology.org/2023.findings-acl.676.pdf)][[Repo](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-code)] *Yekun Chai, Shuohuan Wang, Chao Pang, Yu Sun, Hao Tian, and Hua Wu.* 2022.12
+
+4. **SantaCoder: don't reach for the stars!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2301.03988)] *Loubna Ben Allal, Raymond Li, Denis Kocetkov, Chenghao Mou, Christopher Akiki, Carlos Munoz Ferrandis, Niklas Muennighoff. et al.* 2023.01
 
-4. **CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X** `Preprint`
+5. **CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2303.17568)] *Qinkai Zheng, Xiao Xia, Xu Zou, Yuxiao Dong, Shan Wang, Yufei Xue, Zihan Wang, Lei Shen, Andi Wang, Yang Li, Teng Su, Zhilin Yang, Jie Tang.* 2023.03
 
-5. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
+6. **CodeGen2: Lessons for Training LLMs on Programming and Natural Languages** `ICLR23`
   
     [[Paper](https://arxiv.org/abs/2305.02309)] *Erik Nijkamp, Hiroaki Hayashi, Caiming Xiong, Silvio Savarese, Yingbo Zhou.* 2023.05
 
-6. **StarCoder: may the source be with you!** `Preprint`
+7. **StarCoder: may the source be with you!** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2305.06161)] *Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou. et al.* 2023.05
 
-7. **CodeT5+: Open Code Large Language Models for Code Understanding and Generation** `Preprint`
+8. **CodeT5+: Open Code Large Language Models for Code Understanding and Generation** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2305.07922)] *Yue Wang, Hung Le, Akhilesh Deepak Gotmare, Nghi D.Q. Bui, Junnan Li, Steven C.H. Hoi.* 2023.05
 
-8. **Textbooks Are All You Need** `Preprint`
+9. **Textbooks Are All You Need** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.11644)] *Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi. et al.* 2023.06
 
-9. **Code Llama: Open Foundation Models for Code** `Preprint`
+10. **Code Llama: Open Foundation Models for Code** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2308.12950)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
 
