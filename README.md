@@ -67,6 +67,7 @@
 | BIRD                                 | [[Source](https://bird-bench.github.io)]                                          |
 | CanAiCode Leaderboard                | [[Source](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)]        |
 | Coding LLMs Leaderboard              | [[Source](https://leaderboard.tabbyml.com)]                                       |
+| CRUXEval Leaderboard                 | [[Source](https://crux-eval.github.io/leaderboard.html)]                          |
 | EvalPlus                             | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
 | InfiCoder-Eval                       | [[Source](https://infi-coder.github.io/inficoder-eval)]                           |
 | InterCode                            | [[Source](https://intercode-benchmark.github.io)]                                 |
