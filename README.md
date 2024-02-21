@@ -69,6 +69,7 @@
 | Coding LLMs Leaderboard              | [[Source](https://leaderboard.tabbyml.com)]                                       |
 | CRUXEval Leaderboard                 | [[Source](https://crux-eval.github.io/leaderboard.html)]                          |
 | EvalPlus                             | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
+| HumanEval.jl                         | [[Source](https://github.com/01-ai/HumanEval.jl)]                                 |
 | InfiCoder-Eval                       | [[Source](https://infi-coder.github.io/inficoder-eval)]                           |
 | InterCode                            | [[Source](https://intercode-benchmark.github.io)]                                 |
 | Program Synthesis Models Leaderboard | [[Source](https://accubits.com/open-source-program-synthesis-models-leaderboard)] |
