@@ -17,7 +17,7 @@
 
 - [🧵 Table of Contents](#-table-of-contents)
 - [🚀 Leaderboard](#-leaderboard)
-- [💡 Evaluation Toolkit](#-evaluation-toolkit)
+- [💡 Evaluation Toolkit:](#-evaluation-toolkit)
 - [📚 Paper](#-paper)
   - [▶️ Pre-Training](#️-pre-training)
   - [▶️ Instruction Tuning](#️-instruction-tuning)
@@ -124,16 +124,31 @@
   
     [[Paper](https://arxiv.org/abs/2308.12950)] *Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat. et al.* 2023.08
 
+11. **DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2401.14196)] *Daya Guo, Qihao Zhu, Dejian Yang, Zhenda Xie, Kai Dong, Wentao Zhang, Guanting Chen et al.* 2024.01
+
+12. **StarCoder 2 and The Stack v2: The Next Generation** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2402.19173)] *Anton Lozhkov, Raymond Li, Loubna Ben Allal, Federico Cassano, Joel Lamy-Poirier, Nouamane Tazi, Ao Tang et al.* 2024.02
 
 ### ▶️ Instruction Tuning
 
-1. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
+1. **Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**
+
+    [[Repo](https://github.com/sahil280114/codealpaca)] *Sahil Chaudhary.* 2023
+
+2. **WizardCoder: Empowering Code Large Language Models with Evol-Instruct** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.08568)] *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang.* 2023.07
 
-2. **OctoPack: Instruction Tuning Code Large Language Models** `Preprint`
+3. **OctoPack: Instruction Tuning Code Large Language Models** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2308.07124)][[Repo](https://github.com/bigcode-project/octopack)] *Niklas Muennighoff, Qian Liu, Armel Zebaze, Qinkai Zheng, Binyuan Hui, Terry Yue Zhuo, Swayam Singh, Xiangru Tang, Leandro von Werra, Shayne Longpre.* 2023.08
+
+4. **Magicoder: Source Code Is All You Need** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2312.02120)][[Repo](https://github.com/ise-uiuc/magicoder)] *Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang* 2023.12
 
 
 ### ▶️ Alignment with Feedback
@@ -208,6 +223,38 @@
 5. **Can ChatGPT replace StackOverflow? A Study on Robustness and Reliability of Large Language Model Code Generation** `Preprint`
 
     [[Paper](https://arxiv.org/abs/2308.10335)] *Li Zhong, Zilong Wang.* 2023.08
+
+6. **RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation** `EMNLP23`
+
+    [[Paper](https://arxiv.org/abs/2303.12570)] *Fengji Zhang, Bei Chen, Yue Zhang, Jacky Keung, Jin Liu, Daoguang Zan, Yi Mao, Jian-Guang Lou, Weizhu Chen.* 2023.10
+
+7. **CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion** `Neurips23`
+
+    [[Paper](https://arxiv.org/abs/2310.11248)] *Yangruibo Ding, Zijian Wang, Wasi Uddin Ahmad, Hantian Ding, Ming Tan, Nihal Jain, Murali Krishna Ramanathan. et al.* 2023.11
+
+8. **SWE-bench: Can Language Models Resolve Real-World GitHub Issues?** `ICLR24`
+
+    [[Paper](https://arxiv.org/abs/2310.06770)] *YCarlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, Karthik Narasimhan.* 2023.10
+
+9. **DevBench: A Comprehensive Benchmark for Software Development** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2403.08604)][[Repo](https://github.com/open-compass/DevBench)] *Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang* 2024.3
+
+10. **LongCoder: A Long-Range Pre-trained Language Model for Code Completion** `ICML23`
+
+    [[Paper](https://arxiv.org/abs/2306.14893)] *Daya Guo, Canwen Xu, Nan Duan, Jian Yin, Julian McAuley.* 2023.10
+
+11. **Coeditor: Leveraging Contextual Changes for Multi-round Code Auto-editing** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2305.18584)] *Jiayi Wei, Greg Durrett, Isil Dillig.* 2023.5
+
+12. **Automating Code Review Activities by Large-Scale Pre-training** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2203.09095)] *JZhiyu Li, Shuai Lu, Daya Guo, Nan Duan, Shailesh Jannu, Grant Jenks, Deep Majumder, Jared Green, Alexey Svyatkovskiy, Shengyu Fu, Neel Sundaresan.* 2022.10
+
+
+
+
 
 
 ### ▶️ Using LLMs while coding
