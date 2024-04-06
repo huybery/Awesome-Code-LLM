@@ -238,7 +238,7 @@
 
 9. **DevBench: A Comprehensive Benchmark for Software Development** `Preprint`
 
-    [[Paper](https://arxiv.org/abs/2403.08604)][[Repo](https://github.com/open-compass/DevBench)] *Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang* 2024.3
+    [[Paper](https://arxiv.org/abs/2403.08604)][[Repo](https://github.com/open-compass/DevBench)] *Bowen Li, Wenhan Wu, Ziwei Tang, Lin Shi, John Yang, Jinyang Li, Shunyu Yao, Chen Qian, Binyuan Hui, Qicheng Zhang, Zhiyin Yu, He Du, Ping Yang, Dahua Lin, Chao Peng, Kai Chen* 2024.3
 
 10. **LongCoder: A Long-Range Pre-trained Language Model for Code Completion** `ICML23`
 
