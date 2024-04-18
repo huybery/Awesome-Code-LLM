@@ -38,12 +38,14 @@
 | ------------------------ | ------ | --------- | ---- | ------------------------------------------------------------- | ------------------------------------------------------- |
 | GPT-4 + Reflexion        | ?      | 91.0      | 77.1 |                                                               | [paper](https://arxiv.org/abs/2303.11366)               |
 | GPT-4 (latest)           | ?      | 84.1      | 80.0 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
+| CodeQwen1.5-7B-Chat      | 7B     | 83.5      | 70.6 | [clpt](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)       | [github](https://github.com/QwenLM/CodeQwen1.5)         |
 | DeepSeek-Coder-Instruct  | 33B    | 79.3      | 70.0 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
 | DeepSeek-Coder-Instruct  | 7B     | 78.6      | 65.4 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
 | GPT-3.5-Turbo (latest)   | ?      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
 | Code-Llama               | 34B    | 62.2      | 61.2 |                                                               | [paper](https://arxiv.org/abs/2308.12950)               |
 | Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.14936)               |
 | WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.08568)               |
+| CodeQwen1.5-7B-Chat      | 7B     | 51.8      | 61.8 | [clpt](https://huggingface.co/Qwen/CodeQwen1.5-7B)            | [github](https://github.com/QwenLM/CodeQwen1.5)         |
 | Code-Davinci-002         | ?      | 47.0      |      |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
 | StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
 | PaLM 2-S                 | ?      | 37.6      | 50.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
