@@ -259,6 +259,9 @@
     [[Paper](https://arxiv.org/abs/2203.09095)] *JZhiyu Li, Shuai Lu, Daya Guo, Nan Duan, Shailesh Jannu, Grant Jenks, Deep Majumder, Jared Green, Alexey Svyatkovskiy, Shengyu Fu, Neel Sundaresan.* 2022.10
 
 
+13. **BioCoder: A Benchmark for Bioinformatics Code Generation with Large Language Models** `ISMB 2024`
+
+    [[Paper](https://arxiv.org/abs/2308.16458)] *Xiangru Tang, Bill Qian, Rick Gao, Jiakang Chen, Xinyun Chen, Mark Gerstein.* 2023.08
 
 
 
