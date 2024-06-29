@@ -199,6 +199,10 @@
    
     [[Paper](https://arxiv.org/abs/2306.02907)] *Shuyang Jiang, Yuhao Wang, Yu Wang.* 2023.06
 
+7. **Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step** `ACL24`
+
+    [[Paper](https://arxiv.org/abs/2402.16906)] *Li Zhong, Zilong Wang, Jingbo Shang.* 2024.02
+
 
 ### ▶️ Evaluation & Benchmark
 
