@@ -55,18 +55,20 @@
 | 17   | [CodeLlama-70B-Instruct](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)           | 70B     | 72.0      | 77.8 | [paper](https://arxiv.org/abs/2308.12950)                  |
 | 18   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)          | 1.5B    | 70.7      | 69.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
 | 19   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)          | 0.5B    | 61.6      | 52.4 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
-| 20   | Pangu-Coder2                                                                                    | 15B     | 61.6      |      | [paper](https://arxiv.org/abs/2307.14936)                  |
+| 20   | Pangu-Coder2                                                                                    | 15B     | 61.6      | -    | [paper](https://arxiv.org/abs/2307.14936)                  |
 | 21   | [WizardCoder-15B](https://hf.co/WizardLM/WizardCoder-15B-V1.0)                                  | 15B     | 57.3      | 51.8 | [paper](https://arxiv.org/abs/2306.08568)                  |
 | 22   | CodeQwen1.5-7B                                                                                  | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
 | 23   | [CodeLlama-34B-Instruct](https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf)           | 34B     | 48.2      | 61.1 | [paper](https://arxiv.org/abs/2308.12950)                  |
-| 24   | Code-Davinci-002                                                                                | -       | 47.0      |      | [paper](https://arxiv.org/abs/2107.03374)                  |
+| 24   | Code-Davinci-002                                                                                | -       | 47.0      | -    | [paper](https://arxiv.org/abs/2107.03374)                  |
 | 25   | [StarCoder2-15B-Instruct-v0.1](https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)     | 15B     | 67.7      | 78.0 | [paper](https://arxiv.org/abs/2305.06161)                  |
+
 &nbsp;
 
 ## 💡 Evaluation Toolkit:
 
 - [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness): A framework for the evaluation of autoregressive code generation language models.
 - [code-eval](https://github.com/abacaj/code-eval): A framework for the evaluation of autoregressive code generation language models on HumanEval.
+
 &nbsp;
 
 ## 🚀 Awesome Code Leaderboard
