@@ -20,11 +20,11 @@
 - [💡 Evaluation Toolkit:](#-evaluation-toolkit)
 - [🚀 Awesome Code Leaderboard](#-awesome-code-leaderboard)
 - [📚 Awesome Papers](#-awesome-papers)
-  - [Awesome Code Pre-Training Papers](#️-awesome-code-pre-training-papers)
-  - [Awesome Code Instruction-Tuning Papers](#️-awesome-code-instruction-tuning-papers)
-  - [Awesome Code Alignment Papers](#️-awesome-code-alignment-papers)
-  - [Awesome Code Prompting Papers](#️-awesome-code-prompting-papers)
-  - [Awesome Code Benchmark \& Evaluation Papers](#️-awesome-code-benchmark--evaluation-papers)
+  - [🌊 Awesome Code Pre-Training Papers](#-awesome-code-pre-training-papers)
+  - [🐳 Awesome Code Instruction-Tuning Papers](#-awesome-code-instruction-tuning-papers)
+  - [🐬 Awesome Code Alignment Papers](#-awesome-code-alignment-papers)
+  - [🐋 Awesome Code Prompting Papers](#-awesome-code-prompting-papers)
+  - [🐙 Awesome Code Benchmark \& Evaluation Papers](#-awesome-code-benchmark--evaluation-papers)
 - [🙌 Contributors](#-contributors)
 - [Cite as](#cite-as)
 - [Acknowledgement](#acknowledgement)
@@ -92,7 +92,7 @@
 
 ## 📚 Awesome Papers
 
-### Awesome Code Pre-Training Papers
+### 🌊 Awesome Code Pre-Training Papers
 | Title                                                                                                                                                                                                                                                  | Venue      | Date      | Code                                                       | Resources                                                                         |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------|------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | ![Star](https://img.shields.io/github/stars/OpenCoder-llm/OpenCoder-llm.svg?style=social&label=Star) <br> [**OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models**](https://arxiv.org/abs/2411.04905) <br>                            | `Preprint` | `2024.11` | [Github](https://github.com/OpenCoder-llm/OpenCoder-llm)   | [HF](https://huggingface.co/infly/OpenCoder-8B-Instruct)                          |
@@ -111,7 +111,7 @@
 | ![Star](https://img.shields.io/github/stars/openai/human-eval.svg?style=social&label=Star) <br> [**Evaluating Large Language Models Trained on Code**](https://arxiv.org/abs/2107.03374) <br>                                                          | `Preprint` | `2021.07` | [Github](https://github.com/openai/human-eval)             | -                                                                                 |
 &nbsp;
 
-### Awesome Code Instruction-Tuning Papers
+### 🐳 Awesome Code Instruction-Tuning Papers
 | Title                                                                                                                                                                                                                                                | Venue      | Date      | Code                                                  | Resources                                                      |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------|-------------------------------------------------------|----------------------------------------------------------------|
 | ![Star](https://img.shields.io/github/stars/ise-uiuc/magicoder.svg?style=social&label=Star) <br> [**Magicoder: Source Code Is All You Need**](https://arxiv.org/abs/2312.02120) <br>                                                                 | `ICML'24`  | `2023.12` | [Github](https://github.com/ise-uiuc/magicoder)       | [HF](https://huggingface.co/ise-uiuc/Magicoder-DS-6.7B)        |
@@ -121,7 +121,7 @@
 &nbsp;
 
 
-### Awesome Code Alignment Papers
+### 🐬 Awesome Code Alignment Papers
 | Title                                                                                                                                                                                                                                    | Venue        | Date      | Code                                                          | Resources |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|---------------------------------------------------------------|-----------|
 | [**PLUM: Preference Learning Plus Test Cases Yields Better Code Language Models**](https://arxiv.org/abs/2406.06887) <br>                                                                                                                | `Preprint`   | `2024.06` | -                                                             | -         |
@@ -131,7 +131,7 @@
 | ![Star](https://img.shields.io/github/stars/salesforce/CodeRL.svg?style=social&label=Star) <br> [**CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning**](https://arxiv.org/abs/2207.01780) <br> | `NeurIPS'22` | `2022.07` | [Github](https://github.com/salesforce/CodeRL)                | -         |
 &nbsp;
 
-### Awesome Code Prompting Papers
+### 🐋 Awesome Code Prompting Papers
 | Title                                                                                                                                                                                                                                                 | Venue      | Date      | Code                                                                   | Resources |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------|------------------------------------------------------------------------|-----------|
 | ![Star](https://img.shields.io/github/stars/YerbaPage/MGDebugger.svg?style=social&label=Star) <br> [**From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging**](https://arxiv.org/abs/2410.01215) <br>        | `Preprint` | `2024.10` | [Github](https://github.com/YerbaPage/MGDebugger)                      | -         |
@@ -144,7 +144,7 @@
 | ![Star](https://img.shields.io/github/stars/microsoft/CodeT.svg?style=social&label=Star) <br> [**CodeT: Code Generation with Generated Tests**](https://arxiv.org/abs/2207.10397) <br>                                                                | `ICLR'23`  | `2022.07` | [Github](https://github.com/microsoft/CodeT)                           | -         |
 &nbsp;
 
-### Awesome Code Benchmark & Evaluation Papers
+### 🐙 Awesome Code Benchmark & Evaluation Papers
 | Dataset         | Title                                                                                                                                                                                                                                                           | Venue        | Date      | Code                                                                                    | Resources                                                                |
 |:----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | `Evalperf`      | ![Star](https://img.shields.io/github/stars/evalplus/evalplus.svg?style=social&label=Star) <br> [**Evaluating Language Models for Efficient Code Generation**](https://arxiv.org/abs/2408.06450) <br>                                                           | `COLM'24`    | `2024.08` | [Github](https://github.com/evalplus/evalplus)                                          | [HF](https://huggingface.co/evalplus)                                    |
