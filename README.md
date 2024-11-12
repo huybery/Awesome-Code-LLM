@@ -39,7 +39,7 @@
 |------|-------------------------------------------------------------------------------------------------|---------|-----------|------|------------------------------------------------------------|
 | 1    | o1-mini-2024-09-12                                                                              | -       | 97.6      | 93.9 | [paper](https://arxiv.org/abs/2409.12186)                  |
 | 2    | o1-preview-2024-09-12                                                                           | -       | 95.1      | 93.4 | [paper](https://arxiv.org/abs/2409.12186)                  |
-| 3    | [Qwen2.5-Coder-32B-Instruct]((https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct))          | 32B     | 92.7      | 90.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| 3    | [Qwen2.5-Coder-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct)            | 32B     | 92.7      | 90.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
 | 4    | Claude-3.5-Sonnet-20241022                                                                      | -       | 92.1      | 91.0 | [paper](https://arxiv.org/abs/2409.12186)                  |
 | 5    | GPT-4o-2024-08-06                                                                               | -       | 92.1      | 86.8 | [paper](https://arxiv.org/abs/2409.12186)                  |
 | 6    | [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)            | 14B     | 89.6      | 86.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
@@ -58,7 +58,7 @@
 | 19   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)          | 0.5B    | 61.6      | 52.4 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
 | 20   | Pangu-Coder2                                                                                    | 15B     | 61.6      | -    | [paper](https://arxiv.org/abs/2307.14936)                  |
 | 21   | [WizardCoder-15B](https://hf.co/WizardLM/WizardCoder-15B-V1.0)                                  | 15B     | 57.3      | 51.8 | [paper](https://arxiv.org/abs/2306.08568)                  |
-| 22   | CodeQwen1.5-7B                                                                                  | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
+| 22   | [CodeQwen1.5-7B](https://huggingface.co/Qwen/CodeQwen1.5-7B)                                    | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
 | 23   | [CodeLlama-34B-Instruct](https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf)           | 34B     | 48.2      | 61.1 | [paper](https://arxiv.org/abs/2308.12950)                  |
 | 24   | Code-Davinci-002                                                                                | -       | 47.0      | -    | [paper](https://arxiv.org/abs/2107.03374)                  |
 | 25   | [StarCoder2-15B-Instruct-v0.1](https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)     | 15B     | 67.7      | 78.0 | [paper](https://arxiv.org/abs/2305.06161)                  |
