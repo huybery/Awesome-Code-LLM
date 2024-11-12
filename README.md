@@ -30,6 +30,7 @@
 - [Acknowledgement](#acknowledgement)
 - [Star History](#star-history)
 
+&nbsp;
 
 ## 🚀 Top Code LLMs
 ###### Sort by HumanEval Pass@1
