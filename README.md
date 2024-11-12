@@ -171,6 +171,9 @@
   
     [[Paper](https://arxiv.org/abs/2307.14936)] *Bo Shen, Jiaxin Zhang, Taihong Chen, Daoguang Zan, Bing Geng, An Fu, Muhan Zeng, Ailun Yu, Jichuan Ji, Jingyang Zhao, Yuenan Guo, Qianxiang Wang.* 2023.07 
 
+5. **PLUM: Preference Learning Plus Test Cases Yields Better Code Language Models** `Preprint`
+  
+    [[Paper](https://arxiv.org/abs/2406.06887)] *Dylan Zhang, Shizhe Diao, Xueyan Zou, Hao Peng.* 2024.06
 
 ### ▶️ Prompting
 
