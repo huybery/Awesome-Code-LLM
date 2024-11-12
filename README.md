@@ -34,55 +34,59 @@
 
 <p align="center"> <b>Central Leaderboard</b> (Sort by HumanEval Pass@1) </p>
 
-| Model                    | Params | HumanEval | MBPP | HF                                                            | Source                                                  |
-| ------------------------ | ------ | --------- | ---- | ------------------------------------------------------------- | ------------------------------------------------------- |
-| o1-mini-2024-09-12          | -      | 97.6      | 93.9 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| o1-preview-2024-09-12          | -      | 95.1      | 93.4 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| Qwen2.5-Coder-32B-Instruct      | 32B     | 92.7      | 90.2 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| Claude-3.5-Sonnet-20241022          | -      | 92.1      | 91.0 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| GPT-4o-2024-08-06          | -      | 92.1      | 86.8 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| Qwen2.5-Coder-14B-Instruct      | 14B     | 89.6      | 86.2 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| Claude-3.5-Sonnet-20240620          | -      | 89.0      | 87.6 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| GPT-4o-mini-2024-07-18          | -      | 87.8      | 86.0 | - | [paper](https://arxiv.org/abs/2409.12186) |
-| Qwen2.5-Coder-7B-Instruct      | 7B     | 88.4      | 83.5 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| DS-Coder-V2-Instruct      | 21/236B     | 85.4      | 89.4 | [ckpt](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct)       | [github](https://github.com/deepseek-ai/DeepSeek-Coder-V2)         |
-| Qwen2.5-Coder-3B-Instruct      | 3B     | 84.1      | 73.6 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| DS-Coder-V2-Lite-Instruct      | 2.4/16B     | 81.1      | 82.8 | [ckpt](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct)       | [github](https://github.com/deepseek-ai/DeepSeek-Coder-V2)         |
-| CodeQwen1.5-7B-Chat      | 7B     | 83.5      | 70.6 | [ckpt](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)       | [github](https://github.com/QwenLM/CodeQwen1.5)         |
-| DeepSeek-Coder-Instruct  | 33B    | 79.3      | 70.0 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
-| DeepSeek-Coder-Instruct  | 7B     | 78.6      | 65.4 | [ckpt](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct) | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
-| GPT-3.5-Turbo (latest)   | -      | 76.2      | 70.8 |                                                               | [github](https://github.com/deepseek-ai/DeepSeek-Coder) |
-| Qwen2.5-Coder-1.5B-Instruct      | 1.5B     | 70.7      | 69.2 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| Code-Llama               | 34B    | 62.2      | 61.2 |                                                               | [paper](https://arxiv.org/abs/2308.12950)               |
-| Qwen2.5-Coder-0.5B-Instruct      | 0.5B     | 61.6      | 52.4 | [ckpt](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)       | [github](https://github.com/QwenLM/Qwen2.5-Coder)         |
-| Pangu-Coder2             | 15B    | 61.6      |      |                                                               | [paper](https://arxiv.org/abs/2307.14936)               |
-| WizardCoder-15B          | 15B    | 57.3      | 51.8 | [ckpt](https://hf.co/WizardLM/WizardCoder-15B-V1.0)           | [paper](https://arxiv.org/abs/2306.08568)               |
-| CodeQwen1.5-7B      | 7B     | 51.8      | 61.8 | [ckpt](https://huggingface.co/Qwen/CodeQwen1.5-7B)            | [github](https://github.com/QwenLM/CodeQwen1.5)         |
-| Code-Davinci-002         | -      | 47.0      |      |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
-| StarCoder-15B (Prompted) | 15B    | 40.8      | 49.5 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
-| PaLM 2-S                 | -      | 37.6      | 50.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
-| PaLM-Coder-540B          | 540B   | 36.0      | 47.0 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
-| InstructCodeT5+          | 16B    | 35.0      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
-| StarCoder-15B            | 15B    | 33.6      | 52.7 | [ckpt](https://hf.co/bigcode/starcoder)                       | [paper](https://arxiv.org/abs/2305.06161)               |
-| Code-Cushman-001         | -      | 33.5      | 45.9 |                                                               | [paper](https://arxiv.org/abs/2107.03374)               |
-| CodeT5+                  | 16B    | 30.9      |      |                                                               | [paper](https://arxiv.org/abs/2305.07922)               |
-| LLaMA2-70B               | 70B    | 29.9      |      | [ckpt](https://hf.co/meta-llama/Llama-2-70b-hf)               | [paper](https://arxiv.org/abs/2307.09288)               |
-| CodeGen-16B-Mono         | 16B    | 29.3      | 35.3 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
-| PaLM-540B                | 540B   | 26.2      | 36.8 |                                                               | [paper](https://arxiv.org/abs/2204.02311)               |
-| LLaMA-65B                | 65B    | 23.7      | 37.7 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
-| CodeGeeX                 | 13B    | 22.9      | 24.4 |                                                               | [paper](https://arxiv.org/abs/2303.17568)               |
-| LLaMA-33B                | 33B    | 21.7      | 30.2 |                                                               | [paper](https://arxiv.org/abs/2302.13971)               |
-| CodeGen-16B-Multi        | 16B    | 18.3      | 20.9 |                                                               | [paper](https://arxiv.org/abs/2203.13474)               |
-| AlphaCode                | 1.1B   | 17.1      |      |                                                               | [paper](https://arxiv.org/abs/2203.07814)               |
+| Model                                                                                           | Params  | HumanEval | MBPP | Source                                                     |
+|-------------------------------------------------------------------------------------------------|---------|-----------|------|------------------------------------------------------------|
+| o1-mini-2024-09-12                                                                              | -       | 97.6      | 93.9 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| o1-preview-2024-09-12                                                                           | -       | 95.1      | 93.4 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| [Qwen2.5-Coder-32B-Instruct]((https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct))          | 32B     | 92.7      | 90.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| Claude-3.5-Sonnet-20241022                                                                      | -       | 92.1      | 91.0 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| GPT-4o-2024-08-06                                                                               | -       | 92.1      | 86.8 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| [Qwen2.5-Coder-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct)            | 14B     | 89.6      | 86.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| Claude-3.5-Sonnet-20240620                                                                      | -       | 89.0      | 87.6 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| GPT-4o-mini-2024-07-18                                                                          | -       | 87.8      | 86.0 | [paper](https://arxiv.org/abs/2409.12186)                  |
+| [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)              | 7B      | 88.4      | 83.5 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| [DS-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct)           | 21/236B | 85.4      | 89.4 | [github](https://github.com/deepseek-ai/DeepSeek-Coder-V2) |
+| [Qwen2.5-Coder-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct)              | 3B      | 84.1      | 73.6 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| [DS-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct) | 2.4/16B | 81.1      | 82.8 | [github](https://github.com/deepseek-ai/DeepSeek-Coder-V2) |
+| [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                          | 7B      | 83.5      | 70.6 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
+| [DeepSeek-Coder-33B-Instruct](https://hf.co/deepseek-ai/deepseek-coder-33b-instruct)            | 33B     | 79.3      | 70.0 | [github](https://github.com/deepseek-ai/DeepSeek-Coder)    |
+| [DeepSeek-Coder-6.7B-Instruct](https://hf.co/deepseek-ai/deepseek-coder-6.7b-instruct)          | 6.7B    | 78.6      | 65.4 | [github](https://github.com/deepseek-ai/DeepSeek-Coder)    |
+| GPT-3.5-Turbo                                                                                   | -       | 76.2      | 70.8 | [github](https://github.com/deepseek-ai/DeepSeek-Coder)    |
+| [CodeLlama-70B-Instruct](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)           | 70B     | 72.0      | 77.8 | [paper](https://arxiv.org/abs/2308.12950)                  |
+| [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)          | 1.5B    | 70.7      | 69.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)          | 0.5B    | 61.6      | 52.4 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| Pangu-Coder2                                                                                    | 15B     | 61.6      |      | [paper](https://arxiv.org/abs/2307.14936)                  |
+| [WizardCoder-15B](https://hf.co/WizardLM/WizardCoder-15B-V1.0)                                  | 15B     | 57.3      | 51.8 | [paper](https://arxiv.org/abs/2306.08568)                  |
+| CodeQwen1.5-7B                                                                                  | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
+| [CodeLlama-34B-Instruct](https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf)           | 34B     | 48.2      | 61.1 | [paper](https://arxiv.org/abs/2308.12950)                  |
+| Code-Davinci-002                                                                                | -       | 47.0      |      | [paper](https://arxiv.org/abs/2107.03374)                  |
+| [StarCoder2-15B-Instruct-v0.1](https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)     | 15B     | 67.7      | 78.0 | [paper](https://arxiv.org/abs/2305.06161)                  |
+| PaLM 2-S                                                                                        | -       | 37.6      | 50.0 | [paper](https://arxiv.org/abs/2204.02311)                  |
+| PaLM-Coder-540B                                                                                 | 540B    | 36.0      | 47.0 | [paper](https://arxiv.org/abs/2204.02311)                  |
+| InstructCodeT5+                                                                                 | 16B     | 35.0      |      | [paper](https://arxiv.org/abs/2305.07922)                  |
+| Code-Cushman-001                                                                                | -       | 33.5      | 45.9 | [paper](https://arxiv.org/abs/2107.03374)                  |
+| CodeT5+                                                                                         | 16B     | 30.9      |      | [paper](https://arxiv.org/abs/2305.07922)                  |
+| [LLaMA2-70B](https://hf.co/meta-llama/Llama-2-70b-hf)                                           | 70B     | 29.9      |      | [paper](https://arxiv.org/abs/2307.09288)                  |
+| CodeGen-16B-Mono                                                                                | 16B     | 29.3      | 35.3 | [paper](https://arxiv.org/abs/2203.13474)                  |
+| PaLM-540B                                                                                       | 540B    | 26.2      | 36.8 | [paper](https://arxiv.org/abs/2204.02311)                  |
+| LLaMA-65B                                                                                       | 65B     | 23.7      | 37.7 | [paper](https://arxiv.org/abs/2302.13971)                  |
+| CodeGeeX                                                                                        | 13B     | 22.9      | 24.4 | [paper](https://arxiv.org/abs/2303.17568)                  |
+| LLaMA-33B                                                                                       | 33B     | 21.7      | 30.2 | [paper](https://arxiv.org/abs/2302.13971)                  |
+| CodeGen-16B-Multi                                                                               | 16B     | 18.3      | 20.9 | [paper](https://arxiv.org/abs/2203.13474)                  |
+| AlphaCode                                                                                       | 1.1B    | 17.1      |      | [paper](https://arxiv.org/abs/2203.07814)                  |
 
 | Leaderboard                          | Access                                                                            |
-| :----------------------------------: | ----------------------------------------------------------------------------------|
+|--------------------------------------|-----------------------------------------------------------------------------------|
+| Evalperf Leaderboard                 | [[Source](https://evalplus.github.io/evalperf.html)]                              |
+| Aider Code Editing Leaderboard       | [[Source](https://aider.chat/docs/leaderboards/)]                                 |
+| BigCodeBench Leaderboard             | [[Source](https://bigcode-bench.github.io)]                                       |
+| LiveCodeBench Leaderboard            | [[Source](https://livecodebench.github.io/leaderboard.html)]                      |
 | Big Code Models Leaderboard          | [[Source](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)]      |
 | BIRD                                 | [[Source](https://bird-bench.github.io)]                                          |
 | CanAiCode Leaderboard                | [[Source](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results)]        |
 | Coding LLMs Leaderboard              | [[Source](https://leaderboard.tabbyml.com)]                                       |
 | CRUXEval Leaderboard                 | [[Source](https://crux-eval.github.io/leaderboard.html)]                          |
-| EvalPlus                             | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
+| EvalPlus Leaderboard                 | [[Source](https://evalplus.github.io/leaderboard.html)]                           |
 | HumanEval.jl                         | [[Source](https://github.com/01-ai/HumanEval.jl)]                                 |
 | InfiCoder-Eval                       | [[Source](https://infi-coder.github.io/inficoder-eval)]                           |
 | InterCode                            | [[Source](https://intercode-benchmark.github.io)]                                 |
