@@ -20,8 +20,8 @@
 - [🧵 Table of Contents](#-table-of-contents)
 - [🚀 Top Code LLMs](#-top-code-llms)
 - [💡 Evaluation Toolkit:](#-evaluation-toolkit)
-- [🚀 Awesome Code Leaderboard](#-awesome-code-leaderboard)
-- [📚 Awesome Papers](#-awesome-papers)
+- [🚀 Awesome Code LLMs Leaderboard](#-awesome-code-llms-leaderboard)
+- [📚 Awesome Code LLMs Papers](#-awesome-code-llms-papers)
   - [🌊 Awesome Code Pre-Training Papers](#-awesome-code-pre-training-papers)
   - [🐳 Awesome Code Instruction-Tuning Papers](#-awesome-code-instruction-tuning-papers)
   - [🐬 Awesome Code Alignment Papers](#-awesome-code-alignment-papers)
@@ -74,7 +74,7 @@
 
 &nbsp;
 
-## 🚀 Awesome Code Leaderboard
+## 🚀 Awesome Code LLMs Leaderboard
 | Leaderboard                          | Access                                                                            |
 |:-------------------------------------|-----------------------------------------------------------------------------------|
 | Evalperf Leaderboard                 | [[Source](https://evalplus.github.io/evalperf.html)]                              |
@@ -96,7 +96,7 @@
 &nbsp;
 
 
-## 📚 Awesome Papers
+## 📚 Awesome Code LLMs Papers
 
 ### 🌊 Awesome Code Pre-Training Papers
 | Title                                                                                                                                                                                                                                                  | Venue      | Date      | Code                                                       | Resources                                                                         |
