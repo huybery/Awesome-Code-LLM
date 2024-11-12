@@ -15,6 +15,14 @@
 
 &nbsp;
 
+## 🔆 How to Contribute
+
+Contributions are welcome!
+If you have any resources, tools, papers, or insights related to Code LLMs, feel free to submit a pull request.
+Let's work together to make this project better!
+
+&nbsp;
+
 ## 🧵 Table of Contents
 
 - [🧵 Table of Contents](#-table-of-contents)
