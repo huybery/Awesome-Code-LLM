@@ -193,7 +193,6 @@
   
     [[Paper](https://arxiv.org/abs/2304.05128)] *Xinyun Chen, Maxwell Lin, Nathanael Schärli, Denny Zhou.* 2023.06
 
-
 5. **Demystifying GPT Self-Repair for Code Generation** `Preprint`
   
     [[Paper](https://arxiv.org/abs/2306.09896)] *Theo X. Olausson, Jeevana Priya Inala, Chenglong Wang, Jianfeng Gao, Armando Solar-Lezama.* 2023.06
@@ -205,6 +204,10 @@
 7. **Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step** `ACL24`
 
     [[Paper](https://arxiv.org/abs/2402.16906)] *Li Zhong, Zilong Wang, Jingbo Shang.* 2024.02
+
+8. **From Code to Correctness: Closing the Last Mile of Code Generation with Hierarchical Debugging.** `Preprint`
+
+    [[Paper](https://arxiv.org/abs/2410.01215)][[Repo](https://github.com/YerbaPage/MGDebugger)] *Yuling Shi, Songsong Wang, Chengcheng Wan, Xiaodong Gu.* 2024.10
 
 
 ### ▶️ Evaluation & Benchmark
