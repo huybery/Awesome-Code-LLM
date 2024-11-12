@@ -11,7 +11,7 @@
   </a>
 </div>
 
-![](code-banner.png)
+![](assets/banner.png)
 
 &nbsp;
 
