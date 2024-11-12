@@ -87,6 +87,7 @@
 | InterCode                            | [[Source](https://intercode-benchmark.github.io)]                                 |
 | Program Synthesis Models Leaderboard | [[Source](https://accubits.com/open-source-program-synthesis-models-leaderboard)] |
 | Spider                               | [[Source](https://yale-lily.github.io/spider)]                                    |
+
 &nbsp;
 
 
@@ -109,6 +110,7 @@
 | [**SantaCoder: don't reach for the stars!**](https://arxiv.org/abs/2301.03988) <br>                                                                                                                                                                    | `Preprint` | `2023.01` | -                                                          | [HF](https://huggingface.co/bigcode/santacoder)                                   |
 | ![Star](https://img.shields.io/github/stars/salesforce/CodeGen.svg?style=social&label=Star) <br> [**CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis**](https://arxiv.org/abs/2203.13474) <br>                         | `ICLR'23`  | `2022.03` | [Github](https://github.com/salesforce/CodeGen)            | [HF](https://huggingface.co/Salesforce/codegen25-7b-multi_P)                      |
 | ![Star](https://img.shields.io/github/stars/openai/human-eval.svg?style=social&label=Star) <br> [**Evaluating Large Language Models Trained on Code**](https://arxiv.org/abs/2107.03374) <br>                                                          | `Preprint` | `2021.07` | [Github](https://github.com/openai/human-eval)             | -                                                                                 |
+
 &nbsp;
 
 ### 🐳 Awesome Code Instruction-Tuning Papers
@@ -118,6 +120,7 @@
 | ![Star](https://img.shields.io/github/stars/bigcode-project/octopack.svg?style=social&label=Star) <br> [**OctoPack: Instruction Tuning Code Large Language Models**](https://arxiv.org/abs/2308.07124) <br>                                          | `ICLR'24`  | `2023.08` | [Github](https://github.com/bigcode-project/octopack) | [HF](https://huggingface.co/bigcode/octocoder)                 |
 | ![Star](https://img.shields.io/github/stars/nlpxucan/WizardLM.svg?style=social&label=Star) <br> [**WizardCoder: Empowering Code Large Language Models with Evol-Instruct**](https://arxiv.org/abs/2306.08568) <br>                                   | `Preprint` | `2023.07` | [Github](https://github.com/nlpxucan/WizardLM)        | [HF](https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0) |
 | ![Star](https://img.shields.io/github/stars/sahil280114/codealpaca.svg?style=social&label=Star) <br> [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) <br> | `Preprint` | `2023.xx` | [Github](https://github.com/sahil280114/codealpaca)   | [HF](https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k) |
+
 &nbsp;
 
 
@@ -129,6 +132,7 @@
 | ![Star](https://img.shields.io/github/stars/Zyq-scut/RLTF.svg?style=social&label=Star) <br> [**RLTF: Reinforcement Learning from Unit Test Feedback**](https://arxiv.org/abs/2307.04349) <br>                                            | `Preprint`   | `2023.07` | [Github](https://github.com/Zyq-scut/RLTF)                    | -         |
 | ![Star](https://img.shields.io/github/stars/reddy-lab-code-research/PPOCoder.svg?style=social&label=Star) <br> [**Execution-based Code Generation using Deep Reinforcement Learning**](https://arxiv.org/abs/2301.13816) <br>            | `TMLR'23`    | `2023.01` | [Github](https://github.com/reddy-lab-code-research/PPOCoder) | -         |
 | ![Star](https://img.shields.io/github/stars/salesforce/CodeRL.svg?style=social&label=Star) <br> [**CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning**](https://arxiv.org/abs/2207.01780) <br> | `NeurIPS'22` | `2022.07` | [Github](https://github.com/salesforce/CodeRL)                | -         |
+
 &nbsp;
 
 ### 🐋 Awesome Code Prompting Papers
@@ -142,6 +146,7 @@
 | ![Star](https://img.shields.io/github/stars/niansong1996/lever.svg?style=social&label=Star) <br> [**LEVER: Learning to Verify Language-to-Code Generation with Execution**](https://arxiv.org/abs/2302.08468) <br>                                    | `ICML'23`  | `2023.02` | [Github](https://github.com/niansong1996/lever)                        | -         |
 | ![Star](https://img.shields.io/github/stars/facebookresearch/coder_reviewer_reranking.svg?style=social&label=Star) <br> [**Coder Reviewer Reranking for Code Generation**](https://arxiv.org/abs/2211.16490) <br>                                     | `ICML'23`  | `2022.11` | [Github](https://github.com/facebookresearch/coder_reviewer_reranking) | -         |
 | ![Star](https://img.shields.io/github/stars/microsoft/CodeT.svg?style=social&label=Star) <br> [**CodeT: Code Generation with Generated Tests**](https://arxiv.org/abs/2207.10397) <br>                                                                | `ICLR'23`  | `2022.07` | [Github](https://github.com/microsoft/CodeT)                           | -         |
+
 &nbsp;
 
 ### 🐙 Awesome Code Benchmark & Evaluation Papers
@@ -163,6 +168,7 @@
 | `MultiPL-E`     | ![Star](https://img.shields.io/github/stars/nuprl/MultiPL-E.svg?style=social&label=Star) <br> [**MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation**](https://arxiv.org/abs/2208.08227) <br>                                 | `Preprint`   | `2022.08` | [Github](https://github.com/nuprl/MultiPL-E)                                            | [HF](https://huggingface.co/datasets/xlangai/DS-1000)                    |
 | `MBPP`          | ![Star](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Star) <br> [**Program Synthesis with Large Language Models**](https://arxiv.org/abs/2108.07732) <br>                                                         | `Preprint`   | `2021.08` | [Github](https://github.com/google-research/google-research/blob/master/mbpp/README.md) | [HF](https://huggingface.co/datasets/nuprl/MultiPL-E)                    |
 | `APPS`          | ![Star](https://img.shields.io/github/stars/hendrycks/apps.svg?style=social&label=Star) <br> [**Measuring Coding Challenge Competence With APPS**](https://arxiv.org/abs/2105.09938) <br>                                                                       | `NeurIPS'21` | `2021.05` | [Github](https://github.com/hendrycks/apps)                                             | [HF](https://huggingface.co/datasets/codeparrot/apps)                    |
+
 &nbsp;
 
 ## 🙌 Contributors
@@ -174,6 +180,7 @@
 <a href="https://github.com/Hambaobao"><img src="https://avatars.githubusercontent.com/u/48345096?v=4"  width="50" /></a>
 
 This is an active repository and your contributions are always welcome! If you have any question about this opinionated list, do not hesitate to contact me `huybery@gmail.com`.
+
 &nbsp;
 
 ## Cite as
@@ -186,11 +193,13 @@ This is an active repository and your contributions are always welcome! If you h
   year = 2023,
 }
 ```
+
 &nbsp;
 
 ## Acknowledgement
 
 This project is inspired by [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM).
+
 &nbsp;
 
 ## Star History
