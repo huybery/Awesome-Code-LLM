@@ -23,11 +23,18 @@ Let's work together to make this project better!
 
 &nbsp;
 
+## News
+
+- 🔥🔥🔥 **[2024-11-12]** [**Qwen2.5-Coder series**](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e) are released, offering six model sizes (0.5B, 1.5B, 3B, 7B, 14B, 32B), with Qwen2.5-Coder-32B-Instruct now the most powerful open-source code model.
+- 🔥🔥 **[2024-11-08]** [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://arxiv.org/abs/2411.04905) is released.
+
+&nbsp;
+
 ## 🧵 Table of Contents
 
 - [🧵 Table of Contents](#-table-of-contents)
 - [🚀 Top Code LLMs](#-top-code-llms)
-- [💡 Evaluation Toolkit:](#-evaluation-toolkit)
+- [💡 Evaluation Toolkit](#-evaluation-toolkit)
 - [🚀 Awesome Code LLMs Leaderboard](#-awesome-code-llms-leaderboard)
 - [📚 Awesome Code LLMs Papers](#-awesome-code-llms-papers)
   - [🌊 Awesome Code Pre-Training Papers](#-awesome-code-pre-training-papers)
@@ -65,13 +72,13 @@ Let's work together to make this project better!
 | 16   | GPT-3.5-Turbo                                                                                   | -       | 76.2      | 70.8 | [github](https://github.com/deepseek-ai/DeepSeek-Coder)    |
 | 17   | [CodeLlama-70B-Instruct](https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf)           | 70B     | 72.0      | 77.8 | [paper](https://arxiv.org/abs/2308.12950)                  |
 | 18   | [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)          | 1.5B    | 70.7      | 69.2 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
-| 19   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)          | 0.5B    | 61.6      | 52.4 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
-| 20   | Pangu-Coder2                                                                                    | 15B     | 61.6      | -    | [paper](https://arxiv.org/abs/2307.14936)                  |
-| 21   | [WizardCoder-15B](https://hf.co/WizardLM/WizardCoder-15B-V1.0)                                  | 15B     | 57.3      | 51.8 | [paper](https://arxiv.org/abs/2306.08568)                  |
-| 22   | [CodeQwen1.5-7B](https://huggingface.co/Qwen/CodeQwen1.5-7B)                                    | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
-| 23   | [CodeLlama-34B-Instruct](https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf)           | 34B     | 48.2      | 61.1 | [paper](https://arxiv.org/abs/2308.12950)                  |
-| 24   | Code-Davinci-002                                                                                | -       | 47.0      | -    | [paper](https://arxiv.org/abs/2107.03374)                  |
-| 25   | [StarCoder2-15B-Instruct-v0.1](https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)     | 15B     | 67.7      | 78.0 | [paper](https://arxiv.org/abs/2305.06161)                  |
+| 19   | [StarCoder2-15B-Instruct-v0.1](https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1)     | 15B     | 67.7      | 78.0 | [paper](https://arxiv.org/abs/2305.06161)                  |
+| 20   | [Qwen2.5-Coder-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct)          | 0.5B    | 61.6      | 52.4 | [github](https://github.com/QwenLM/Qwen2.5-Coder)          |
+| 21   | Pangu-Coder2                                                                                    | 15B     | 61.6      | -    | [paper](https://arxiv.org/abs/2307.14936)                  |
+| 22   | [WizardCoder-15B](https://hf.co/WizardLM/WizardCoder-15B-V1.0)                                  | 15B     | 57.3      | 51.8 | [paper](https://arxiv.org/abs/2306.08568)                  |
+| 23   | [CodeQwen1.5-7B](https://huggingface.co/Qwen/CodeQwen1.5-7B)                                    | 7B      | 51.8      | 61.8 | [github](https://github.com/QwenLM/CodeQwen1.5)            |
+| 24   | [CodeLlama-34B-Instruct](https://huggingface.co/meta-llama/CodeLlama-34b-Instruct-hf)           | 34B     | 48.2      | 61.1 | [paper](https://arxiv.org/abs/2308.12950)                  |
+| 25   | Code-Davinci-002                                                                                | -       | 47.0      | -    | [paper](https://arxiv.org/abs/2107.03374)                  |
 
 &nbsp;
 
