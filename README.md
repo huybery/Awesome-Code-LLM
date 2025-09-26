@@ -107,6 +107,7 @@ Let's work together to make this project better!
 | [InterCode Leaderboard](https://intercode-benchmark.github.io)                                                | InterCode is a benchmark for evaluating language models on the interactive coding task. Given a natural language request, an agent is asked to interact with a software system (e.g., database, terminal) with code to resolve the issue.                        |
 | [Program Synthesis Models Leaderboard](https://accubits.com/open-source-program-synthesis-models-leaderboard) | They created this leaderboard to help researchers easily identify the best open-source model with an intuitive leadership quadrant graph. They evaluate the performance of open-source code models to rank them based on their capabilities and market adoption. |
 | [Spider Leaderboard](https://yale-lily.github.io/spider)                                                      | Spider is a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by 11 Yale students. The goal of the Spider challenge is to develop natural language interfaces to cross-domain databases.                                   |
+| [LLM Stats](https://llm-stats.com/)                                                      | LLM Stats, the most comprehensive LLM leaderboard, benchmarks and compares API models using daily‑updated, open‑source community data on capability, price, speed, and context length.                                   |
 
 &nbsp;
 
